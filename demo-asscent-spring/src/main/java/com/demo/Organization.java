@@ -5,7 +5,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class Organization {
 	public static void main(String[] args) {
 
-	System.Out.Println("Hello im in Organization!!!!");
+	System.Out.Println("Hello ansar im in Organization class!!!!");
 	AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(AllBeanConfiguration.class);
 	
 	Manager manager = ctx.getBean(Manager.class);
